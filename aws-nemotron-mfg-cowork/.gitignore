@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated sample images (run generate_sample_images.py to recreate)
+sample_images/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local copy of hub repo or other nested clones — never commit
+nv-aws/
